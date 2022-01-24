@@ -33,9 +33,10 @@ USERS = {
 
 
 def check_in(users: dict, key: Any) -> bool:
-    # TODO вставить код сюда
-    result = None
+    d_users = check_in_dict(users, key)
+    result = d_users[0]
     return result
+
 
 
 if __name__ == '__main__':

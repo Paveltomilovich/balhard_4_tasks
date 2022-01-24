@@ -9,6 +9,7 @@
 (Изменить функцию copy_dict таким образом, чтобы она возвращала поверхностную
 копию данных)
 """
+import copy
 
 TEST_TEMPLATE = {
     'a1': None,
@@ -23,7 +24,7 @@ TEST_TEMPLATE = {
 
 
 def copy_dict(template: dict) -> dict:
-    # TODO вставить код сюда
+    template = dict.copy(TEST_TEMPLATE)
     template_copy = template
     return template_copy
 
