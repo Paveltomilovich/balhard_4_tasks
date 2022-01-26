@@ -6,9 +6,9 @@
 
 
 def copy_set(collection: set) -> set:
-    # TODO вставить код сюда
-    collection_copy = collection
-    return collection_copy
+
+    result = collection.copy()
+    return result
 
 
 if __name__ == '__main__':

@@ -6,8 +6,8 @@
 
 
 def get_unique_in_list(some_list: list) -> set:
-    # TODO вставить код сюда
-    result = None
+    unique_elements = set(some_list)
+    result = unique_elements.union()
     return result
 
 

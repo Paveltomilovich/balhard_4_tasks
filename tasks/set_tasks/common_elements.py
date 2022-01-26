@@ -7,8 +7,9 @@
 
 
 def common_elements(list_1: list, list_2) -> set:
-    # TODO вставить код сюда
-    result = None
+    unicum_names = set(list_1)
+    unicum_names_2 = set(list_2)
+    result = unicum_names.union(unicum_names_2)
     return result
 
 
