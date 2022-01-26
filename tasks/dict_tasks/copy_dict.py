@@ -10,6 +10,7 @@
 копию данных)
 """
 
+
 TEST_TEMPLATE = {
     'a1': None,
     'a2': None,
@@ -23,7 +24,7 @@ TEST_TEMPLATE = {
 
 
 def copy_dict(template: dict) -> dict:
-    # TODO вставить код сюда
+    template = dict.copy(TEST_TEMPLATE)
     template_copy = template
     return template_copy
 

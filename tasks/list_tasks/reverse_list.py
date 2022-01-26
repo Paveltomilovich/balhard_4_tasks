@@ -3,13 +3,11 @@
 --------------------------------------------------------------------------------
 Написать функцию, которая вернут развернутый список
 """
-from copy import deepcopy
 
 
 def reverse_list(collection: list) -> list:
-    collection_copy = deepcopy(collection)
-    # TODO вставить код сюда
-    return collection_copy
+    collection.reverse()
+    return collection
 
 
 if __name__ == '__main__':
